@@ -31,6 +31,18 @@ public class Carllegod implements CommandLineRunner {
         pessoas.inserir(p2);
         Pessoa p3 = new Pessoa("Adilson", new Date(2000, 10, 9));
         pessoas.inserir(p3);
+        Pessoa p4 = new Pessoa("Emilyn", new Date(1998, 9, 7));
+        pessoas.inserir(p4);
+        Pessoa p5 = new Pessoa("Luiza", new Date(2001, 2, 9));
+        pessoas.inserir(p5);
+        Pessoa p6 = new Pessoa("Rafael", new Date(2002, 3, 15));
+        pessoas.inserir(p6);
+        Pessoa p7 = new Pessoa("Everton", new Date(1997, 4, 25));
+        pessoas.inserir(p6);
+        Pessoa p7 = new Pessoa("Hiago", new Date(1998, 1, 6));
+        pessoas.inserir(p7);
+        Pessoa p8 = new Pessoa("Richard", new Date(2004, 10, 9));
+        pessoas.inserir(p8);
 
         Automovel a1 = new Automovel("IWZ0226", "Fusca", null);
         automoveis.inserir(a1);
@@ -40,6 +52,18 @@ public class Carllegod implements CommandLineRunner {
         automoveis.inserir(a3);
         Automovel a4 = new Automovel("GOD0001", "Model 3", p2);
         automoveis.inserir(a4);
+        Automovel a5 = new Automovel("GOD0031", "Gol", p3);
+        automoveis.inserir(a5);
+        Automovel a6 = new Automovel("GOD4301", "Uno", p3);
+        automoveis.inserir(a6);
+        Automovel a7 = new Automovel("GOD7841", "Palio", p5);
+        automoveis.inserir(a7);
+        Automovel a8 = new Automovel("GOD2001", "Fox", p6);
+        automoveis.inserir(a8);
+        Automovel a9 = new Automovel("GOD3004", "Fiesta", p7);
+        automoveis.inserir(a9);
+        Automovel a10 = new Automovel("GOF0001", "Siena", null);
+        automoveis.inserir(a10);
 
         System.out.println("Nome das pessoas: ");
         for (Pessoa p : pessoas.consultarTodos()) {
