@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1ddf711-5c0d-4b25-8ee8-8985d106d3b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Carllegod.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carllegod/Carllegod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carllegod/Carllegod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carllegod/entidades/Automovel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carllegod/entidades/Automovel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carllegod/entidades/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carllegod/entidades/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carllegod/repositorios/AutomovelRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carllegod/repositorios/AutomovelRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carllegod/repositorios/AutomovelRepositorioJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carllegod/repositorios/AutomovelRepositorioJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/carllegod/repositorios/PessoaRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/carllegod/repositorios/PessoaRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carllegod/Carllegod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carllegod/Carllegod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carllegod/entidades/Automovel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carllegod/entidades/Automovel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carllegod/entidades/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carllegod/entidades/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carllegod/repositorios/AutomovelRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carllegod/repositorios/AutomovelRepositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/carllegod/repositorios/AutomovelRepositorioJPA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/carllegod/repositorios/AutomovelRepositorioJPA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="c1ddf711-5c0d-4b25-8ee8-8985d106d3b8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
