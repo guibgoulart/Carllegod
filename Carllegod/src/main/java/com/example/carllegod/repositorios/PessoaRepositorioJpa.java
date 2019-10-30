@@ -22,15 +22,6 @@ public class PessoaRepositorioJpa implements PessoaRepositorio {
         em.persist(umaPessoa);
     }
 
-    /*@Override
-    public Pessoa inserir(String nome, int idade) {
-        return null;
-    }
-
-    @Override
-    public Pessoa inserir(String nome) {
-        return null;
-    }*/
 
     @Override
     public List<Pessoa> consultarTodos() {
