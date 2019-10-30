@@ -7,6 +7,7 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
 
+import com.example.carllegod.entidades.Automovel;
 import org.springframework.stereotype.Component;
 
 import com.example.carllegod.entidades.Pessoa;
@@ -50,6 +51,12 @@ public class PessoaRepositorioJpa implements PessoaRepositorio {
         Pessoa p = consultar(id);
         em.remove(p);
         return p;
+    }
+
+    @Override
+    public void vendeAutomovel(Pessoa p, Automovel a){
+        a.setProprietaria(p);
+        em.merge(a);
     }
 
     @Override

@@ -78,6 +78,8 @@ public class Carllegod implements CommandLineRunner {
             System.out.println( " - Nome: " + p.getNome());
         }
 
+        pessoas.vendeAutomovel(p2, a10); // metodo vende
+
         // - Consultar automóvel por sua ID:
         System.out.println("=========================================");
         System.out.println(" - Consultar automovel de id[10]:");
@@ -88,7 +90,10 @@ public class Carllegod implements CommandLineRunner {
         System.out.println("  + Modelo: " + au.getModelo());
         System.out.println("  + Proprietario: " + au.getProprietaria().getNome());
 
-       // - Consultar automóveis pela ID do proprietario:
+
+
+
+        // - Consultar automóveis pela ID do proprietario:
         System.out.println("=========================================");
         System.out.println(" - Consultar automoveis:");
         System.out.println("=========================================");

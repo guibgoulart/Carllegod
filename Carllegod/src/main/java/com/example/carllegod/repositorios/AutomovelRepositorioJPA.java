@@ -40,6 +40,8 @@ public class AutomovelRepositorioJPA implements AutomovelRepositorio {
         return tq.getResultList();
     }
 
+
+
     @Override
     public Automovel remover(long id) {
         Automovel a = consultar(id);

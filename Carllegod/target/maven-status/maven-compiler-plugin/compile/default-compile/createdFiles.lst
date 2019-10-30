@@ -2,6 +2,7 @@ com\example\carllegod\entidades\Pessoa.class
 com\example\carllegod\Carllegod.class
 com\example\carllegod\repositorios\AutomovelRepositorioJPA.class
 com\example\carllegod\entidades\Automovel.class
+com\example\carllegod\repositorios\Concessionaria.class
 com\example\carllegod\repositorios\PessoaRepositorio.class
 com\example\carllegod\repositorios\AutomovelRepositorio.class
 com\example\carllegod\repositorios\PessoaRepositorioJpa.class

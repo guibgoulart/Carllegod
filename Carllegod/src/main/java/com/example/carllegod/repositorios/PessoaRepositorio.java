@@ -2,6 +2,7 @@ package com.example.carllegod.repositorios;
 
 import java.util.List;
 
+import com.example.carllegod.entidades.Automovel;
 import com.example.carllegod.entidades.Pessoa;
 
 public interface PessoaRepositorio {
@@ -14,4 +15,6 @@ public interface PessoaRepositorio {
     Pessoa remover(long id);
 
     void alterar(Pessoa umaPessoa);
+
+    void vendeAutomovel(Pessoa p, Automovel a);
 }
