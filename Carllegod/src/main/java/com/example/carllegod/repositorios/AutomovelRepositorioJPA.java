@@ -39,6 +39,13 @@ public class AutomovelRepositorioJPA implements AutomovelRepositorio {
         TypedQuery<Automovel> tq = em.createQuery(consulta.select(raiz).where(builder.equal(raiz.<Pessoa>get("proprietaria").get("id"), id)));
         return tq.getResultList();
     }
+
+    @Override
+    public Automovel remover(long id) {
+        Automovel a = consultar(id);
+        em.remove(a);
+        return a;
+    }
 }
 
 

@@ -1,5 +1,6 @@
 package com.example.carllegod.entidades;
 
+import org.hibernate.annotations.Check;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,14 +11,18 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "Automoveis")
+@Check ( constraints = "placa LIKE '___-____'" )
 public class Automovel {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
-    @Column(nullable = false)
+
+    @Column(nullable = false, length = 8)
     private String placa;
+
     @Column(nullable = false)
     private String modelo;
+
     @ManyToOne
     private Pessoa proprietaria;
 
@@ -56,6 +61,9 @@ public class Automovel {
     }
 
     public Pessoa getProprietaria() {
+        if(proprietaria == null){
+            return new Pessoa();
+        }
         return proprietaria;
     }
 
